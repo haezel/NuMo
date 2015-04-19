@@ -8,8 +8,23 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    //UITableViewDataSource
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return foodItemLogManager.foodItems.count
+    }
+    //build each cell, this method gets called ^ many times
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "Default")
+        
+        cell.textLabel?.text = foodItemLogManager.foodItems[indexPath.row].name
+        cell.detailTextLabel?.text = "\(foodItemLogManager.foodItems[indexPath.row].amount)"
+        
+        return cell
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

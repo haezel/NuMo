@@ -14,6 +14,7 @@
 		8AA6444E1AD1DB0800FCB424 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6444D1AD1DB0800FCB424 /* Images.xcassets */; };
 		8AA644511AD1DB0800FCB424 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6444F1AD1DB0800FCB424 /* LaunchScreen.xib */; };
 		8AA6445D1AD1DB0800FCB424 /* Numo_0_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6445C1AD1DB0800FCB424 /* Numo_0_0Tests.swift */; };
+		8AA644671AD1DB9400FCB424 /* FoodItemLogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA644661AD1DB9400FCB424 /* FoodItemLogManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		8AA644561AD1DB0800FCB424 /* Numo_0.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Numo_0.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA6445B1AD1DB0800FCB424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AA6445C1AD1DB0800FCB424 /* Numo_0_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numo_0_0Tests.swift; sourceTree = "<group>"; };
+		8AA644661AD1DB9400FCB424 /* FoodItemLogManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItemLogManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				8AA644441AD1DB0800FCB424 /* AppDelegate.swift */,
 				8AA644461AD1DB0800FCB424 /* FirstViewController.swift */,
 				8AA644481AD1DB0800FCB424 /* SecondViewController.swift */,
+				8AA644661AD1DB9400FCB424 /* FoodItemLogManager.swift */,
 				8AA6444A1AD1DB0800FCB424 /* Main.storyboard */,
 				8AA6444D1AD1DB0800FCB424 /* Images.xcassets */,
 				8AA6444F1AD1DB0800FCB424 /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA644671AD1DB9400FCB424 /* FoodItemLogManager.swift in Sources */,
 				8AA644491AD1DB0800FCB424 /* SecondViewController.swift in Sources */,
 				8AA644451AD1DB0800FCB424 /* AppDelegate.swift in Sources */,
 				8AA644471AD1DB0800FCB424 /* FirstViewController.swift in Sources */,
@@ -411,6 +415,7 @@
 				8AA644621AD1DB0800FCB424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AA644631AD1DB0800FCB424 /* Build configuration list for PBXNativeTarget "Numo_0.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				8AA644651AD1DB0800FCB424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
