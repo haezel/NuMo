@@ -9,6 +9,7 @@
 
 import UIKit
 
+
 //global instance of our food log manager
 var foodItemLogManager = FoodItemLogManager()
 
